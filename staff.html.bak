@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<title>Staff Profiles</title>
+
+		<meta charset="UTF-8">
+			<meta name="author" content="dr doom">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="Stylesheet" href="style.css">
+		
+		<style>
+			body {font-family: Open Sans;}
+		</style>
+	
+	</head>
+	
+	<body>
+		<div class="header">
+		<h2>Glasgow Italian Grill </h2>
+		
+		</div>
+			
+			
+		
+		
+		<div class="navbar">
+			<a href="home.html">HOME PAGE</a>
+			<div class="dropdown"> 
+			<button class="dropbtn">Services
+				<i class="fa fa-caret-down"></i>
+			</button>
+			<div class="dropdown-content">	
+				<a href="menu.html">Menu</a>
+				<a href="staff.html">Staff</a>
+				<a href="contact.html">Contact Us</a>
+			</div>
+			</div>	
+		</div>
+
+		
+			<div class="main"> 
+			<h2>Staff Members</h2>
+			<p>Here is a rundown of our staff:<br><br>
+
+<img src="images/Marco_Iopollo.jpg" alt="staff" >
+<p>
+Name : Marco Iopollo <br>
+Position : Chef / Owner <br>
+Marco started the restaurant with his sister.  Grew up in Milan. Learnt how to cook from his mother <br>
+and has worked in kitchens in some of the best restaurants in Milan. <br>
+ 
+</p>
+<img src="images/Valentina_Iopollo.jpg" alt="staff" >
+<p>Name : Valentina Iopollo <br>
+Position : Chef / Owner <br>
+Valentina like her brother learnt how to cook from their mother.  Valentina first came to Scotland in <br>
+the 90s and convinced her brother to start the restaurant.
+
+</p>	
+<img src="images/Maria_Rossi.jpg" alt="staff" >
+<p>Name : Maria Rossi <br>
+Position : Manager <br>
+Maria joined the restaurant in 2017 as manager.  Maria has managed many restaurants in her career <br>
+and oversees the recruiting and hiring restaurant staff as well as greeting and serving restaurant guests.
+
+</p>
+<img src="images/Susan_Smith.jpg" alt="staff" >
+<p>Name : Susan Smith <br>
+Position : Head Waitress <br>
+Susan has been with us for 7 years and now has responsibilities include helping assign waitstaff <br>
+tables, talking to patrons to ensure they have a good experience, and performing opening and <br>
+closing duties.
+
+</p>
+<img src="images/John-McStay.jpg" alt="staff" >
+<p>Name : John McStay <br>
+Position : Waiter <br>
+John started with Glasgow Italian Grill 3 years ago and was new to waitering.  During that time John <br>
+has grown to being an important member of staff. 
+
+</p>			
+<img src="images/Rosa_Ricci.jpg" alt="staff" >
+<p>Name : Rosa Ricci <br>
+Position : Waitress <br>
+Rosa is a student from Rome and works part-time in the restaurant.  Rosa has worked in restaurants <br>
+in Rome, so has plenty of experience.
+
+</p>			
+			
+			
+			
+			</div>
+			
+			
+			
+
+	<div class="footer">
+	
+	<p>Address <br>
+Glasgow Italian Grill <br>
+19 Hatfield Drive <br>
+Anniesland <br>
+Glasgow G12 0YE <br>
+Contact Number <br>
+0141 9496 0555 <br>
+Email Address <br>
+Italian.grill@glasgow <br>
+<a href="https://twitter.com/?lang=en">Twitter </a>
+<a href="https://en-gb.facebook.com/">Facebook </a>
+<a href="https://www.instagram.com/">Instagram </a>
+
+</p>
+ <script src="java/script.js"> </script>
+	<a href="https://twitter.com/?lang=en"> <i class="fa-brands fa-twitter-square"></i> </a>
+<a href="https://en-gb.facebook.com/"> <i class="fa-brands fa-facebook-square"></i> </a>
+<a href="https://www.instagram.com/"> <i class="fa-brands fa-instagram"></i> </a>
+
+		
+</div>
+
+
+	</body>
+</html>
+

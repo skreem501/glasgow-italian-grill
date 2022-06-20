@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>Glasgow Italian Grill</title>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="dr doom">
+	<link rel="Stylesheet" href="style.css">
+
+	<style>
+	  <meta charset="utf-8">
+   	
+      <link rel="stylesheet" href="https://fonts.google.com/specimen/Dancing+Script?query=dancing"> <!-- font number 1 that was required	  -->
+
+      <link rel="stylesheet" href="https://fonts.google.com/specimen/Open+Sans?query=open+sans"> <!-- font number 2 to be used in the body text -->
+      
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+	</style>
+
+</head>
+
+
+<body>
+	<div class="header"> 
+		<h2>Glasgow Italian Grill</h2>
+	</div>
+
+	<div class="navbar"> 
+	
+		<a href="home.html" class="active">HOME PAGE</a>
+		
+			<div class="dropdown"> 
+			<button class="dropbtn">Services
+				<i class="fa fa-caret-down"></i>
+			</button>
+			<div class="dropdown-content">	
+				<a href="produce.html">Menu</a>
+				<a href="activities.html">Staff</a>
+				<a href="howtofind.html">Contact Us</a>
+			</div>
+			</div>
+			
+
+	</div>
+
+	<div class="row">
+	
+		<div class="side"> 
+
+	
+			<div class="main"> 
+				
+		<h2>Glasgow Italian Grill: Who are we?</h2>
+		<p>Glasgow Italian Grill are a family run restaurant business, established in 2010, in the north of Glasgow.  
+We pride ourselves as one of the finest Italian restaurants in Scotland. <br> Our team have a passion for 
+what we do and take great  pride in our classic food and service.  Good Italian cuisine  uses only the 
+freshest ingredients. That’s why we prepare our sauces and breads daily. <br>
+In short, we’re passionate about what we do. We love what we do, and we want others to share our enthusiasm. We want you to come and have a great eating out experience.
+		
+		<br>
+		
+		<p style="color:black;">
+				<br>
+		</p>
+		<div class="images"> 
+
+		    <img src=
+				"images/restaurant_desktop.jpg"
+				
+        alt="restraunt"
+        align="left">
+
+
+
+
+
+		</div>
+	
+	
+	<div class="footer">
+	
+	
+	
+
+		
+</div>
+		
+		
+	</div>
+
+
+
+
+</html>
+

@@ -1,0 +1,281 @@
+* {
+		box-sizing: border-box;
+	}
+	
+	/* Style of the body */
+	.body {
+		font-family: Open Sans, Dancing Script;
+		margin: 0;
+	}
+	
+	/* header title */
+	.header {
+		padding: 20px;
+		text-align: center;
+		background: #6b7050;
+	 
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		color: white;
+	;
+	}
+	
+	/* Header font size */
+	.header h1 {
+		font-size: 40px;
+	}
+	
+	/* Style of the top nav bar */
+	.navbar {
+		overflow: hidden;
+		background-color: #6b7050; /* colour green */ 
+	}
+	
+	/* Style of the nav bar links */
+	.navbar a {
+		float: left;
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 14px 20px;
+		text-decoration: none;
+	}
+	
+	.navbar a.active{
+		background-color: #30872d; /* colour green */
+		color: white;
+	}
+	
+	/* Right-aligned link */
+	.navbar a.right {
+		float: right;
+	}
+	
+	/* Colour change on hover */
+	.navbar a:hover {
+		background-color: #ddd;
+		color: #70867f;
+	}
+	
+	/* Dropdown container */
+	.dropdown {
+		float: left;
+		overflow: hidden;
+	}
+	
+	/* Dropdown button */
+	.dropdown .dropbtn {
+		font-size: 16px;
+		border: none;
+		outline: none;
+		color: white;
+		padding: 14px 16px;
+		background-color: inherit;
+		font-family: inherit; /* for vertical align on mobile phones */
+		margin: 0; /* for vertical align on mobile phones */
+	}
+	
+	.navbar a:hover, .dropdown:hover .dropbtn {
+		background-color: #149446;
+	}
+	
+	/* Dropdown content */
+	.dropdown-content {
+		display: none;
+		position: absolute;
+		background-color: #f9f9f9;
+		min-width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+	}
+	
+	/* Links inside the dropdown */
+	.dropdown-content a {
+		float: none; 
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+		text-align: left;
+	}
+	
+	/* grey background to dropdown links on hover */
+	.dropdown-content a:hover {
+		background-color: #ddd;
+	}
+	
+	/* Show the dropdown menu on hover */
+	.dropdown:hover .dropdown-content {
+		display: block;
+	}
+	
+	/* Column container */
+	.row {
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+	
+	/* side column // two unequal columns */
+	.side {
+		-ms-flex: 30%;
+		flex: 15%;
+		background-color: #ddebd41; 
+		padding: 20px;
+	}
+	
+	/* Main column */
+	.main {
+		-ms-flex: 70%;
+		flex: 70%;
+		background-color: #ddebd4;
+		background-image: url("images/");
+		padding: 20px;
+		color: black;
+	}
+	
+
+	
+	}
+	/* clear floats after the columns */
+	.row:after {
+		content: "";
+		display: table;
+		clear: both;
+}
+	/* Responsive layout (stack columnns on top of each other) */
+	@media screen and (max-width: 600px) {
+		.column {
+			width: 100%;
+		}
+	}
+	
+
+	
+	/* Footer bar */
+	.footer {
+		padding: 20px;
+		text-align: center;
+		background: #dea17c;
+	}
+	
+	
+	/* responsive layout for less than 700px */
+	@media screen and (max-width 700px) {
+		.row {
+			flex-direction: column-reverse;
+		}
+	}
+	
+	/* Responsive layout for less than 400px */
+	@media screen and (max-width: 400px) {
+		.navbar a {
+			float: none;
+			width: 100%;
+		}
+	}
+	
+	#button {
+	padding: 12px;
+	border: none;
+	width: 30%;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 12px;
+	}
+	
+	* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 750px;
+  position: relative;
+  margin: auto;
+  background:#ddebd4 ;
+
+
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  background: #ddebd4;
+  
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #black;
+  font-size: 35px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
